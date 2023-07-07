@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Button } from "./Button";
-import useToast from "@/app/hooks/useToast";
+import useToast from "@/hooks/useToast";
 
 export const TestComponent = () => {
   const [isLoading, setIsLoading] = useState(false);

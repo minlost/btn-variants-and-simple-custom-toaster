@@ -1,5 +1,5 @@
 "use client";
-import useToast from "@/app/hooks/useToast";
+import useToast from "@/hooks/useToast";
 
 const Toaster = () => {
   const { toasts, removeToast } = useToast();
